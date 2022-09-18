@@ -1,6 +1,6 @@
 
 export async function before(m, { isAdmin, isBotAdmin }) {
-   if (m.sender.startsWith('212' || '212')) {
+   if (m.sender.startsWith('91' || '91')) {
    	global.db.data.users[m.sender].banned = true
 conn.reply(htki + ' Banned Number ' + htka)
 conn.reply(htki + ' Kick User ' + htka)
